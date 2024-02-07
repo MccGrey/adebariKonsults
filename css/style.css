@@ -569,9 +569,19 @@ section {
   .home .slide .content h3 {
     font-size: 3rem;
   }
+  .header #info-btn,
+  .header #search-btn,
+  .header #login-btn {
+    display: none;
+  }
 }
 @media (max-width: 450px) {
   .html {
     font-size: 50%;
+  }
+  .header #info-btn,
+  .header #search-btn,
+  .header #login-btn {
+    display: none;
   }
 } /*# sourceMappingURL=style.css.map */
